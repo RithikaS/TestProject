@@ -1,7 +1,7 @@
 {
   "scripts": {
     "forever": "forever",
-    "start": "nodemon app"
+    "start": "cd ./server && nodemon app"
   },
   "dependencies": {
     "cors": "^2.8.5",
