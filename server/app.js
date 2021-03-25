@@ -4,7 +4,7 @@ const cors = require('cors');
 
 app.use(cors());
 app.get('/', (req, res)=>{
-    res.send('Hello World!');
+    res.json('Hello World!');
 });
 
 app.listen(4000, ()=> console.log("Listening on port 4000!"))
